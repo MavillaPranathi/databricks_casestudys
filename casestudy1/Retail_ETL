@@ -1,1 +1,100 @@
+# Retail Lakehouse ETL using Azure Databricks
+ 
+## Project Overview
+ 
+This project builds a basic Lakehouse solution for a retail organization using Databricks.
+ 
+Customer, product, and sales data are processed using Medallion Architecture.
+ 
+---
+ 
+## Technologies Used
+ 
+- Azure Databricks
+- PySpark
+- Delta Lake
+- SQL
+- Azure Data Lake Storage
+ 
+ 
+---
+ 
+## Architecture
+ 
+Raw Files
+ 
+    |
+ 
+Bronze Layer
+ 
+    |
+ 
+Silver Layer
+ 
+    |
+ 
+Gold Layer
+ 
+    |
+ 
+Analytics
+ 
+ 
+---
+ 
+## Implementation Steps
+ 
+### Bronze Layer
+ 
+- Loaded raw customer, product, and sales files.
+- Stored data as Delta tables.
+ 
+ 
+### Silver Layer
+ 
+Performed data cleaning:
+ 
+- Removed duplicate records.
+- Handled missing values.
+- Validated data types.
+- Removed invalid records.
+ 
+ 
+### Gold Layer
+ 
+Created business-ready tables.
+ 
+Generated metrics:
+ 
+- Total Revenue
+- Order Count
+- Top Selling Products
+ 
+ 
+---
 
+ 
+ 
+---
+ 
+## Output
+ 
+Created:
+ 
+- Bronze Delta Tables
+- Silver Delta Tables
+- Gold Delta Tables
+ 
+ 
+ 
+---
+ 
+## Key Concepts Learned
+ 
+- Medallion Architecture
+- PySpark DataFrames
+- Delta Tables
+- Data Cleaning
+- Data Transformation
+- SQL Analytics
+ 
