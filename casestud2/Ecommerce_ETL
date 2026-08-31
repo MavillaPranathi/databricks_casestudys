@@ -1,1 +1,94 @@
-
+# Production Ready Data Pipeline using Databricks
+ 
+## Project Overview
+ 
+This project demonstrates a production-level ETL pipeline for an e-commerce company.
+ 
+The pipeline processes daily transaction data and creates analytics-ready datasets.
+ 
+---
+ 
+## Technologies Used
+ 
+- Azure Databricks
+- PySpark
+- Delta Lake
+- SQL
+- Unity Catalog
+ 
+ 
+---
+ 
+## Architecture Flow
+ 
+ 
+Daily Transaction Data
+ 
+        |
+ 
+Bronze Layer
+ 
+        |
+ 
+Silver Layer
+ 
+        |
+ 
+Gold Layer
+ 
+        |
+ 
+Analytics
+ 
+ 
+---
+ 
+## Implementation Steps
+ 
+1. Implemented incremental data processing.
+ 
+2. Created Bronze, Silver, and Gold Delta tables.
+ 
+3. Performed data quality checks.
+ 
+4. Applied PySpark transformations.
+ 
+5. Implemented schema validation and schema evolution.
+ 
+6. Created SQL queries for analytics.
+ 
+7. Optimized Delta tables using optimization techniques.
+ 
+8. Created Databricks workflows for automated execution.
+ 
+9. Applied access control using Unity Catalog.
+ 
+ 
+---
+ 
+## Data Quality Checks
+ 
+Performed checks for:
+ 
+- Null values
+- Duplicate records
+- Invalid values
+- Data consistency
+ 
+ 
+---
+ 
+ 
+ 
+---
+ 
+## Key Concepts Learned
+ 
+- Production ETL Pipeline
+- Incremental Processing
+- Delta Lake
+- Schema Evolution
+- Data Quality
+- Workflow Orchestration
+- Unity Catalog
+- Data Governance
